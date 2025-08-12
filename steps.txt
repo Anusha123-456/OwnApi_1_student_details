@@ -1,0 +1,86 @@
+{
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+
+Pre-requisite:
+
+Step 1: Create Maven project.
+Step 2: Update pom.xml with required dependencie
+Step 3: Create Folder structure.
+
+Designing:
+
+Pre-requisites:
+	>> Create 4 packages under src/test/java >> api.endpoint >> api.payload >> api.test >> api.utilities
+Step 4: In api.endpoint >> Create Routes.java --> contain URL's.
+Step 5: In api.endpoint >> Create UserEndPoints.java files --> includes --> CRUD methods implementation.
+Step 6: In api.payload >>  Create a POJO class for User --> Then import that class in UserEndPoints.java
+Step 7: Create test cases.
+Step 8: In api.test >> Create data driven test.
+			>>Excel sheet data >> testdata >> userdata.xlsx
+			>>ExcelUtility >> api.utilities >> XLUtility.java  >> reuseble file
+			>>Dataprovider
+Step 9: Generate extent report
+	Extent report utility
+	>>create testng.xml file >> run for executing extent report utility by adding <listeners> in testng.xml
+Step 10: Add logs 
+	>> log4j2 dependency 
+	>> log4j2.xml >> part of src/test/resources
+	
+    >> it will create some .html file inside logss folder
+Step 11: add maven surefire plugin and maven compiler plugin
+Step 12: Run pom.xml from eclipse 
+Step 13: Run project from cmd prompt 
+	>>mvn test
+Step 14: CI process
+	Pre-requisites:
+	--------------------------------
+	1. Install git software.
+	2. Create account with github
+	
+	Working project:
+	1. Cmd prompt >> project path
+	2. git init   
+	3. git add -A / git add .
+	4. git status
+	5. git add -A
+		git add filename.ext
+		git add *.ext
+		git add foldername
+	6. git commit -m "commit message"
+	7. git remote add origin url
+	8. git push -u origin master
+	9. Open Jenkins
+		>> manage jenkins
+		  -Tools
+			- add git.exe path
+			- add maven folder path
+			- add github repo
+		>> manage jenkins
+		 - Plugins
+		 	- maven integration
+		>> new item
+			- Source code managemenet
+				-git 
+					-project repo
+			-Build
+				-pom.xml
+				>>Goals and options
+				- clean test // to run a project command
+			-Apply save
+		>> Build now

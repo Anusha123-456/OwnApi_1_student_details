@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="63.081" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\JPL\Eclipse_Rest_assured\ownapi_automation1\target\test-classes;C:\JPL\Eclipse_Rest_assured\ownapi_automation1\target\classes;C:\Users\admin\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\admin\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\admin\.m2\repository\io\rest-assured\json-schema-validator\5.5.5\json-schema-validator-5.5.5.jar;C:\Users\admin\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\admin\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\admin\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\admin\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\admin\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\admin\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\admin\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\admin\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\admin\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\admin\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\admin\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\admin\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\admin\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\admin\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\admin\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\admin\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\admin\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\admin\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\admin\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\admin\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\admin\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\admin\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\admin\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\admin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\admin\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\admin\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire9835584023988547556\surefirebooter-20250812121445878_3.jar C:\Users\admin\AppData\Local\Temp\surefire9835584023988547556 2025-08-12T12-14-45_320-jvmRun1 surefire-20250812121445878_1tmp surefire_0-20250812121445878_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\JPL\Eclipse_Rest_assured\ownapi_automation1\target\test-classes;C:\JPL\Eclipse_Rest_assured\ownapi_automation1\target\classes;C:\Users\admin\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\admin\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\admin\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\admin\.m2\repository\io\rest-assured\json-schema-validator\5.5.5\json-schema-validator-5.5.5.jar;C:\Users\admin\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\admin\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\admin\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\admin\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\admin\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\admin\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\admin\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\admin\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\admin\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\admin\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\admin\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\admin\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\admin\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\admin\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\admin\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\admin\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\admin\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\admin\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\admin\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\admin\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\admin\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\admin\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\admin\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\admin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\admin\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\admin\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\JPL\Eclipse_Rest_assured\ownapi_automation1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire9835584023988547556\surefirebooter-20250812121445878_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.19+9-LTS-224"/>
+    <property name="user.name" value="admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.19"/>
+    <property name="user.dir" value="C:\JPL\Eclipse_Rest_assured\ownapi_automation1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Python312\Scripts;C:\Program Files\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Enterprise Vault\EVClient\x64\;C:\Windows\CCM;C:\Windows\CCM;C:\Program Files (x86)\Qualcomm\QIKTool\1.0.76.3;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\adb;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Java\jdk-11;C:\Program Files\nodejs;C:\Users\admin\AppData\Roaming\Python\Python312\Scripts;C:\Program Files\Git\cmd;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\PuTTY\;C:\Program Files\nodejs\node_modules;C:\Users\admin\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\JPL\Eclipse_Rest_assured\apache-maven-3.9.10\bin;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.19+9-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="crete_user" classname="api.tests.userTests" time="2.645">
+    <system-out><![CDATA[{
+    "id": "95a4",
+    "name": "Margherita Hamill",
+    "location": "East Kurtville",
+    "phone": "793.053.6929 x74214",
+    "course": [
+        "java",
+        "cypress"
+    ]
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="read_user" classname="api.tests.userTests" time="0.082">
+    <system-out><![CDATA[{
+    "id": "95a4",
+    "name": "Margherita Hamill",
+    "location": "East Kurtville",
+    "phone": "793.053.6929 x74214",
+    "course": [
+        "java",
+        "cypress"
+    ]
+}
+X-Powered-By  :  tinyhttp
+Access-Control-Allow-Origin  :  *
+Access-Control-Allow-Methods  :  GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers  :  content-type
+Content-Type  :  application/json
+Date  :  Tue, 12 Aug 2025 06:44:51 GMT
+Connection  :  keep-alive
+Keep-Alive  :  timeout=5
+Content-Length  :  160
+]]></system-out>
+  </testcase>
+  <testcase name="update_user" classname="api.tests.userTests" time="0.043">
+    <system-out><![CDATA[{
+    "id": "95a4",
+    "name": "Dorsey Nitzsche",
+    "location": "Krystinafort",
+    "phone": "308.794.2187 x230",
+    "course": [
+        "java",
+        "cypress"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="delete_user" classname="api.tests.userTests" time="0.032">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 12 Aug 2025 06:44:51 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 154
+
+{
+    "id": "95a4",
+    "name": "Dorsey Nitzsche",
+    "location": "Krystinafort",
+    "phone": "308.794.2187 x230",
+    "course": [
+        "java",
+        "cypress"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testcretaeUser[1, Anusha, India, 9876543210, [C++, Python]](1)" classname="api.tests.DataDrivenTest" time="3.038">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 12 Aug 2025 06:44:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 126
+
+{
+    "id": "1",
+    "name": "Anusha",
+    "location": "India",
+    "phone": "9876543210",
+    "course": [
+        "C++",
+        "Python"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testcretaeUser[2, Usha, Indore, 1234567890, [C , Java]](2)" classname="api.tests.DataDrivenTest" time="3.054">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 12 Aug 2025 06:44:56 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 122
+
+{
+    "id": "2",
+    "name": "Usha",
+    "location": "Indore",
+    "phone": "1234567890",
+    "course": [
+        "C ",
+        "Java"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testcretaeUser[3, Uma, USA, 1357908642, [Python, JavaScript]](3)" classname="api.tests.DataDrivenTest" time="3.05">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 12 Aug 2025 06:44:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 128
+
+{
+    "id": "3",
+    "name": "Uma",
+    "location": "USA",
+    "phone": "1357908642",
+    "course": [
+        "Python",
+        "JavaScript"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testcretaeUser[4, Rani, UAE, 1029384756, [JAVA, C#]](4)" classname="api.tests.DataDrivenTest" time="3.06">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 12 Aug 2025 06:45:02 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 119
+
+{
+    "id": "4",
+    "name": "Rani",
+    "location": "UAE",
+    "phone": "1029384756",
+    "course": [
+        "JAVA",
+        "C#"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testcretaeUser[5, Raju, UK, 9876054321, [JavaScript, C++]](5)" classname="api.tests.DataDrivenTest" time="3.045">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 12 Aug 2025 06:45:05 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 125
+
+{
+    "id": "5",
+    "name": "Raju",
+    "location": "UK",
+    "phone": "9876054321",
+    "course": [
+        "JavaScript",
+        "C++"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testcretaeUser[6, Rakesh, Europe, 9182736450, [Ruby, C]](6)" classname="api.tests.DataDrivenTest" time="3.047">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 12 Aug 2025 06:45:08 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 123
+
+{
+    "id": "6",
+    "name": "Rakesh",
+    "location": "Europe",
+    "phone": "9182736450",
+    "course": [
+        "Ruby",
+        "C"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser[1](1)" classname="api.tests.DataDrivenTest" time="3.043">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 12 Aug 2025 06:45:12 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 126
+
+{
+    "id": "1",
+    "name": "Anusha",
+    "location": "India",
+    "phone": "9876543210",
+    "course": [
+        "C++",
+        "Python"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser[2](2)" classname="api.tests.DataDrivenTest" time="3.029">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 12 Aug 2025 06:45:15 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 122
+
+{
+    "id": "2",
+    "name": "Usha",
+    "location": "Indore",
+    "phone": "1234567890",
+    "course": [
+        "C ",
+        "Java"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser[3](3)" classname="api.tests.DataDrivenTest" time="3.034">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 12 Aug 2025 06:45:18 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 128
+
+{
+    "id": "3",
+    "name": "Uma",
+    "location": "USA",
+    "phone": "1357908642",
+    "course": [
+        "Python",
+        "JavaScript"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser[4](4)" classname="api.tests.DataDrivenTest" time="3.028">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 12 Aug 2025 06:45:21 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 119
+
+{
+    "id": "4",
+    "name": "Rani",
+    "location": "UAE",
+    "phone": "1029384756",
+    "course": [
+        "JAVA",
+        "C#"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser[5](5)" classname="api.tests.DataDrivenTest" time="3.042">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 12 Aug 2025 06:45:24 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 125
+
+{
+    "id": "5",
+    "name": "Raju",
+    "location": "UK",
+    "phone": "9876054321",
+    "course": [
+        "JavaScript",
+        "C++"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser[6](6)" classname="api.tests.DataDrivenTest" time="3.067">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 12 Aug 2025 06:45:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 123
+
+{
+    "id": "6",
+    "name": "Rakesh",
+    "location": "Europe",
+    "phone": "9182736450",
+    "course": [
+        "Ruby",
+        "C"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testdeleteUser[1](1)" classname="api.tests.DataDrivenTest" time="3.026"/>
+  <testcase name="testdeleteUser[2](2)" classname="api.tests.DataDrivenTest" time="3.026"/>
+  <testcase name="testdeleteUser[3](3)" classname="api.tests.DataDrivenTest" time="3.042"/>
+  <testcase name="testdeleteUser[4](4)" classname="api.tests.DataDrivenTest" time="3.033"/>
+  <testcase name="testdeleteUser[5](5)" classname="api.tests.DataDrivenTest" time="3.049"/>
+  <testcase name="testdeleteUser[6](6)" classname="api.tests.DataDrivenTest" time="3.062"/>
+</testsuite>
